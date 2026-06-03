@@ -62,7 +62,6 @@ namespace BioadvanceFileTransfer
                 Logger.Write("**********File download Process completed with above error:" + strFileDateFormat + "**********");
                 Logger.Write("");
                 return false;
-
             }
         }
 

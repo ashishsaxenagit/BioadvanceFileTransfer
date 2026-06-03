@@ -5,7 +5,6 @@ namespace BioadvanceFileTransfer
 {
     class ReadConfigFile
     {
-        //public Email email = new Email();
         public String strFile_DateFormat = String.Empty;
         public String strImportsFTPUrl = String.Empty;
         public String strImportsFTPPort = String.Empty;

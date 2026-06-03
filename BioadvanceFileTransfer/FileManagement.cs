@@ -41,7 +41,7 @@ namespace BioadvanceFileTransfer
             string strEmailBody = String.Empty;
             string strFileDateFormat = DateTime.Now.ToString("yyyyMMdd");
             //string samplepwd1 = security.DecryptString("VGFzaHUwMDE3QA==", strFileDateFormat);
-            //strFileDateFormat = "20260424";
+            //strFileDateFormat = "20260506";
             string strEmailPwd = String.Empty;
             strEmailPwd = security.DecryptString(readConfig.strImportsFTPUserPwd, strFileDateFormat);
 

@@ -31,5 +31,6 @@ namespace BioadvanceFileTransfer
             }
             return Encoding.ASCII.GetString(bytes);
         }
+
     }
 }

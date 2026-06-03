@@ -271,7 +271,6 @@ namespace BioadvanceFileTransfer
                         }
                     }
                 }
-
                 return true;
             }
             catch (Exception e)

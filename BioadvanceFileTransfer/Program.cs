@@ -19,7 +19,7 @@ namespace BioadvanceFileTransfer
             catch (Exception ex)
             {
                 Logger.Write("BioadvanceFileTransfer.Main():Exception:" + ex.ToString());
-                //email.SendMail(readConfig.strEmail_EmailSubject, readConfig.strEmail_FromEmail, readConfig.strEmail_ToEmail, strEmailBody, readConfig.strEmail_SmtpServer, readConfig.strEmail_Port, readConfig.strEmail_EnableSsl, readConfig.strEmail_Priority);
+                //email.SendMail(readConfig.strEmail_EmailSubject, readConfig.strEmail_FromEmail, readConfig.strEmail_ToEmail, strEmailBody, readConfig.strEmail_SmtpServer, readConfig.strEmail_Port, readConfig.strEmail_EnableSsl, readConfig.strEmail_Priority );
             }
         }
     }
